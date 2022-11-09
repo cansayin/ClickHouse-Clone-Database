@@ -17,4 +17,4 @@ clickhouse-client --password yourpassword --query "BACKUP DATABASE ${database_na
 echo "INFO: ${database_name} Backup Has Been Taken"
 
 clickhouse-client --password yourpassword --query "RESTORE DATABASE ${database_name} AS ${database_name}_${branch_name} FROM Disk('backups','${database_name}.${branch_name}.zip')"
-echo "INFO: ${database_name}_branch Restore Finished"
+echo "INFO: ${database_name}_${branch_name} Restore Finished"
