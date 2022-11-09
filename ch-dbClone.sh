@@ -10,7 +10,7 @@ echo Please choose a database name:
 read -p "Database Name :" database_name
 
 echo Please write a branch name:
-read -p "Branch Name : " branch_name
+read -p "Clone Name : " branch_name
 
 
 clickhouse-client --password yourpassword --query "BACKUP DATABASE ${database_name} TO Disk('backups','${database_name}.${branch_name}.zip')"
