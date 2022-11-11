@@ -33,6 +33,11 @@ Then Run .sh
 
 ######### ClickHouse Databases ###########
 ------------------------------------------
+Please enter ClickHouse User Name
+User Name : default
+Please enter ClickHouse Password
+Password : password
+
 "INFORMATION_SCHEMA"
 "default"
 "information_schema"
