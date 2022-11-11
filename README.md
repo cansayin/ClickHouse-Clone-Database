@@ -8,12 +8,6 @@ mkdir /backups
 chown clickhouse:clickhouse /backups
 </code></pre>
 
-<pre id="example"><code class="language-lang"  style="color: #333; background: #f8f8f8;"> 
-vi ch-dbClone.sh
-
-change your password
-clickhouse-client --password yourpassword
-</code></pre>
 
 <pre id="example"><code class="language-lang"  style="color: #333; background: #f8f8f8;"> 
 chmod 777 ch-dbClone.sh
