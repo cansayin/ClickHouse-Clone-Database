@@ -37,10 +37,13 @@ Password : password
 "information_schema"
 "system"
 "test"
+
 Please choose a database name:
 Database Name :test
+
 Please write a clone name:
 Clone Name : clone
+
 37360f96-e75d-436b-9a3f-abe44230f67c	BACKUP_CREATED
 INFO: test Backup Has Been Taken
 bbe08e69-2fb0-46f0-86de-d9f543f60cf7	RESTORED
