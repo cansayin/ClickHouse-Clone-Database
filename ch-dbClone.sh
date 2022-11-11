@@ -2,14 +2,16 @@ echo "----------------------------------------------------------------------"
 echo "################# ClickHouse Database Clone Tool #################"
 echo "----------------------------------------------------------------------"
 echo ""
-echo "######### ClickHouse Databases ###########"
-echo "------------------------------------------"
+
 
 echo "Please enter ClickHouse User Name"
 read -p "User Name : " username
 
 echo "Please enter ClickHouse Password"
 read -p "Password : " password
+
+echo "######### ClickHouse Databases ###########"
+echo "------------------------------------------"
 
 clickhouse-client --user ${username} --password ${password} --query 'show databases Format CSV;'
 
