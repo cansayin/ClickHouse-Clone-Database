@@ -25,13 +25,15 @@ Then Run .sh
 ################# ClickHouse Database Clone Tool #################
 ----------------------------------------------------------------------
 
-######### ClickHouse Databases ###########
-------------------------------------------
+
 Please enter ClickHouse User Name
 User Name : default
 Please enter ClickHouse Password
 Password : password
 
+
+######### ClickHouse Databases ###########
+------------------------------------------
 "INFORMATION_SCHEMA"
 "default"
 "information_schema"
