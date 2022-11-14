@@ -49,7 +49,7 @@ Clone Name : clone
 37360f96-e75d-436b-9a3f-abe44230f67c	BACKUP_CREATED
 INFO: test Backup Has Been Taken
 bbe08e69-2fb0-46f0-86de-d9f543f60cf7	RESTORED
-INFO: test_branch Restore Finished
+INFO: test_clone Restore Finished
 </code></pre>
 
 
