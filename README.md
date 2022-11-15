@@ -41,7 +41,7 @@ Password : password
 "test"
 
 Please choose a database name:
-Database Name :test
+Database Name : test
 
 Please write a clone name:
 Clone Name : clone
