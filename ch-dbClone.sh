@@ -16,7 +16,7 @@ echo "------------------------------------------"
 clickhouse-client --user ${username} --password ${password} --query 'show databases Format CSV;'
 
 echo Please choose a database name:
-read -p "Database Name :" database_name
+read -p "Database Name : " database_name
 
 echo Please write a branch name:
 read -p "Clone Name : " branch_name
