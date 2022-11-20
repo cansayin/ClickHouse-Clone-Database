@@ -18,7 +18,7 @@ clickhouse-client --user ${username} --password ${password} --query 'show databa
 echo Please choose a database name:
 read -p "Database Name : " database_name
 
-echo Please write a branch name:
+echo Please write a Clone name:
 read -p "Clone Name : " branch_name
 
 
